@@ -5,5 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/miku_violet.mk
+    $(LOCAL_DIR)/nyanpasu_violet.mk
 
+COMMON_LUNCH_CHOICES := \
+    nyanpasu_violet-userdebug
