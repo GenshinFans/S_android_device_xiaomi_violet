@@ -5,7 +5,7 @@
 
 # Inherit some common Nyanpasu stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-NYANPASU_NOWPLAY := true
+NYANPASU_NOWPLAY := false
 $(call inherit-product, vendor/nyanpasu/build/target/nekomimi.mk)
 
 # Inherit from those products. Most specific first.
